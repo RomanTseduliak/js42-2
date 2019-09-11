@@ -8,5 +8,20 @@ function whatNumberIsIt(n){
   if (n || n == 0) return `Input number is ${n}`;
 }
 //https://www.codewars.com/kata/57238ceaef9008adc7000603
+function colorOf(r, g, b) {
+  let r1 = r.toString(16);
+  let g1 = g.toString(16);
+  let b1 = b.toString(16);
+  if (r1.length < 2) {
+    r1 = "0" + r1;
+  }
+  if (g1.length < 2) {
+    g1 = "0" + g1;
+  }
+  if (b1.length < 2) {
+    b1 = "0" + b1;
+  }
+  return "#" + r1 + g1 + b1;
+}
 
 // http://www.codewars.com/kata/57256064856584bc47000611
