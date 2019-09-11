@@ -25,3 +25,16 @@ function colorOf(r, g, b) {
 }
 
 // http://www.codewars.com/kata/57256064856584bc47000611
+function howManySmaller(arr, n) {
+  let newArr = [];
+  let number = 0;
+  for (let i = 0; i < arr.length; i++) {
+    newArr.push(arr[i].toFixed(2));
+  }
+  for (let x = 0; x < newArr.length; x++) {
+    if (newArr[x] < n) {
+      number = number + 1;
+    }
+  }
+  return number;
+}
