@@ -67,4 +67,4 @@ describe('`add()` appends a new element to the end of a Set object.', function()
   });
 });
 
-//
+//http://tddbin.com/#?kata=es6/language/set/delete
