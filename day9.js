@@ -6,5 +6,21 @@ function cutIt(pizza){
     return cutPizza;
 }
 //http://www.codewars.com/kata/57277a31e5e51450a4000010
+function firstToLast(chempion, last) {
+  let member = 0;
+  if (chempion.includes(last)) {
+    member = chempion.lastIndexOf(last) - chempion.indexOf(last);
+    return member;
+  } else return -1;
+}
 
 //http://www.codewars.com/kata/57280481e8118511f7000ffa"
+function splitAndMerge(sea, river) {
+  const water = sea.split(" ");
+  for (let i = 0; i < water.length; i++) {
+    const h20 = water[i].split("");
+    water[i] = h20.join(river);
+  }
+  const result = water.join(" ");
+  return result;
+}
