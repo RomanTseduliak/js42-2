@@ -1,4 +1,4 @@
-//
+//http://tddbin.com/#?kata=es6/language/map/get
 // 45: Map.prototype.get()
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
@@ -35,7 +35,7 @@ describe('`Map.prototype.get` returns the element from the map for a key', funct
     assert.equal(value, void 0);
   });
 });
-\\
+\\http://tddbin.com/#?kata=es6/language/map/get
 // 44: Map - basics
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
@@ -73,7 +73,7 @@ describe('`Map` is a key/value map', function(){
     assert.equal(map.has(otherObj), false);
   });
 });
-//
+//http://tddbin.com/#?kata=es6/language/map/initialize
 // 53: Map - initialize
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
@@ -122,7 +122,7 @@ function mapToArray(map) {
 function assertMapsEqual(map1, map2) {
   assert.deepEqual(mapToArray(map1), mapToArray(map2));
 }
-\\
+\\http://tddbin.com/#?kata=es6/language/map/set
 // 46: Map.prototype.set()
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
@@ -155,7 +155,7 @@ describe('`Map.prototype.set` adds a new element with key and value to a Map', f
     assert.deepEqual([...map.values()], ['one', 'two', 'three']);
   });
 });
-\\
+\\http://tddbin.com/#?kata=es6/language/map/has
 // 62: Map - `has()` 
 // To do: make all tests pass, leave the assert lines unchanged!
 // Follow the hints of the failure messages!
